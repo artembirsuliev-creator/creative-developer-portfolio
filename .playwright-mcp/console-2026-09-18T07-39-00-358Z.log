@@ -1,0 +1,723 @@
+[    2814ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    3162ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    3253ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    3290ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    3299ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[    3337ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    3393ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    3393ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    3589ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    3600ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    3600ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    4033ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    4315ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    4331ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    4335ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    4490ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    4502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    4502ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    4636ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    4648ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    4648ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    4875ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    5149ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    5161ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    5162ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    5333ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    5344ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    5345ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    5521ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    5534ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    5535ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    5817ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    6091ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    6104ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    6107ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    6248ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    6257ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    6257ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    6398ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    6411ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    6411ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    6633ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    6872ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    6881ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    6885ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    7088ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    7098ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    7098ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    7234ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    7248ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    7248ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    7484ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    7736ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    7745ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    7748ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    7894ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    7901ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    7901ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    8038ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    8052ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    8052ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    8282ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    8523ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    8533ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    8536ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    8688ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    8700ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    8700ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    8849ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    8862ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    8862ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    9097ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    9361ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[    9370ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[    9375ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[    9508ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    9514ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    9514ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    9637ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[    9649ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[    9649ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[    9870ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   10163ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[   10171ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[   10175ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[   10328ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[   10339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[   10339ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[   10470ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[   10482ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[   10483ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[   10716ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   10964ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:31148
+[   10973ms] Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js
+- C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\utils.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\options.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\swc\index.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\config.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next.js
+- C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:57:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at defaultResolve (node:internal/modules/cjs/loader:1199:20)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at He (file://C:\Users\User\Desktop\proekt223\node_modules\@tailwindcss\node\dist\index.js:1:1283)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1212:25)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at __webpack_require__.f.require (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\User\Desktop\proekt223\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:325)
+    at Object.<anonymous> (file://C:\Users\User\Desktop\proekt223\.next\server\pages\_document.js:1:371)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:157:16)
+    at requirePage (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\User\Desktop\proekt223\node_modules\next\dist\server\next-server.js:409:21)
+[   10978ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[   11126ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[   11135ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[   11136ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[   11262ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[   11273ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/dd96c29e9a2e7cab.webpack.hot-update.json:0
+[   11273ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[   11496ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   11728ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:3000/_next/static/chunks/fallback/main.js:0

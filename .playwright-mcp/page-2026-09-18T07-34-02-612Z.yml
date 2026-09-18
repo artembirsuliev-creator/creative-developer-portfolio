@@ -1,0 +1,227 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "YOUR NAME home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: YN
+        - generic [ref=e7]: YOUR NAME
+      - navigation "Primary navigation" [ref=e8]:
+        - link "Work" [ref=e9] [cursor=pointer]:
+          - /url: "#work"
+        - link "Approach" [ref=e10] [cursor=pointer]:
+          - /url: "#about"
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: "#services"
+        - link "Let's talk" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Independent / 2026
+        - heading [level=1] [ref=e20]:
+          - generic "Digital work with a pulse." [ref=e21]:
+            - generic [aria-hidden] [ref=e23]: Digital
+            - generic [aria-hidden] [ref=e25]: work
+            - generic [aria-hidden] [ref=e27]: with
+            - generic [aria-hidden] [ref=e29]: a
+            - generic [aria-hidden] [ref=e31]: pulse.
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: I build expressive digital experiences where art direction, motion and engineering move as one.
+          - link "Explore work" [ref=e34] [cursor=pointer]:
+            - /url: "#work"
+      - generic [ref=e39]:
+        - generic [ref=e44]: +
+        - generic [ref=e45]:
+          - generic [ref=e46]: Signal / 01
+          - generic [ref=e47]: Live system
+      - generic [ref=e48]:
+        - generic [ref=e49]: Selected signal
+        - link "Start a conversation" [ref=e50] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+    - generic [ref=e55]:
+      - paragraph [ref=e57]: Approach / About me
+      - heading "Less noise. More signal." [level=2] [ref=e59]
+      - paragraph [ref=e60]:
+        - generic [ref=e62]: I
+        - generic [ref=e66]: c
+        - generic [ref=e68]: o
+        - generic [ref=e70]: "n"
+        - generic [ref=e72]: "n"
+        - generic [ref=e74]: e
+        - generic [ref=e76]: c
+        - generic [ref=e78]: t
+        - generic [ref=e82]: a
+        - generic [ref=e84]: r
+        - generic [ref=e86]: t
+        - generic [ref=e90]: d
+        - generic [ref=e92]: i
+        - generic [ref=e94]: r
+        - generic [ref=e96]: e
+        - generic [ref=e98]: c
+        - generic [ref=e100]: t
+        - generic [ref=e102]: i
+        - generic [ref=e104]: o
+        - generic [ref=e106]: "n"
+        - generic [ref=e108]: ","
+        - generic [ref=e112]: i
+        - generic [ref=e114]: "n"
+        - generic [ref=e116]: t
+        - generic [ref=e118]: e
+        - generic [ref=e120]: r
+        - generic [ref=e122]: a
+        - generic [ref=e124]: c
+        - generic [ref=e126]: t
+        - generic [ref=e128]: i
+        - generic [ref=e130]: o
+        - generic [ref=e132]: "n"
+        - generic [ref=e136]: a
+        - generic [ref=e138]: "n"
+        - generic [ref=e140]: d
+        - generic [ref=e144]: r
+        - generic [ref=e146]: o
+        - generic [ref=e148]: b
+        - generic [ref=e150]: u
+        - generic [ref=e152]: s
+        - generic [ref=e154]: t
+        - generic [ref=e158]: f
+        - generic [ref=e160]: r
+        - generic [ref=e162]: o
+        - generic [ref=e164]: "n"
+        - generic [ref=e166]: t
+        - generic [ref=e168]: e
+        - generic [ref=e170]: "n"
+        - generic [ref=e172]: d
+        - generic [ref=e176]: s
+        - generic [ref=e178]: "y"
+        - generic [ref=e180]: s
+        - generic [ref=e182]: t
+        - generic [ref=e184]: e
+        - generic [ref=e186]: m
+        - generic [ref=e188]: s
+        - generic [ref=e192]: i
+        - generic [ref=e194]: "n"
+        - generic [ref=e196]: t
+        - generic [ref=e198]: o
+        - generic [ref=e202]: d
+        - generic [ref=e204]: i
+        - generic [ref=e206]: g
+        - generic [ref=e208]: i
+        - generic [ref=e210]: t
+        - generic [ref=e212]: a
+        - generic [ref=e214]: l
+        - generic [ref=e218]: w
+        - generic [ref=e220]: o
+        - generic [ref=e222]: r
+        - generic [ref=e224]: k
+        - generic [ref=e228]: t
+        - generic [ref=e230]: h
+        - generic [ref=e232]: a
+        - generic [ref=e234]: t
+        - generic [ref=e238]: f
+        - generic [ref=e240]: e
+        - generic [ref=e242]: e
+        - generic [ref=e244]: l
+        - generic [ref=e246]: s
+        - generic [ref=e250]: c
+        - generic [ref=e252]: l
+        - generic [ref=e254]: e
+        - generic [ref=e256]: a
+        - generic [ref=e258]: r
+        - generic [ref=e260]: ","
+        - generic [ref=e264]: a
+        - generic [ref=e266]: l
+        - generic [ref=e268]: i
+        - generic [ref=e270]: v
+        - generic [ref=e272]: e
+        - generic [ref=e276]: a
+        - generic [ref=e278]: "n"
+        - generic [ref=e280]: d
+        - generic [ref=e284]: d
+        - generic [ref=e286]: i
+        - generic [ref=e288]: s
+        - generic [ref=e290]: t
+        - generic [ref=e292]: i
+        - generic [ref=e294]: "n"
+        - generic [ref=e296]: c
+        - generic [ref=e298]: t
+        - generic [ref=e300]: l
+        - generic [ref=e302]: "y"
+        - generic [ref=e306]: "y"
+        - generic [ref=e308]: o
+        - generic [ref=e310]: u
+        - generic [ref=e312]: r
+        - generic [ref=e314]: s
+        - generic [ref=e316]: .
+      - generic [ref=e317]:
+        - generic [ref=e318]: Available worldwide
+        - generic [ref=e319]: /
+        - generic [ref=e320]: Currently taking on 2—3 projects
+      - link "Start a conversation" [ref=e322] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=e327]:
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - paragraph [ref=e330]: Selected work
+          - heading "A few things I've made." [level=2] [ref=e331]
+        - link "All enquiries" [ref=e332] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e336]:
+        - article [ref=e337]:
+          - link "01 2025 Northstar A new signal for a climate intelligence platform." [ref=e338] [cursor=pointer]:
+            - /url: /work/northstar
+            - generic [ref=e339]:
+              - generic [ref=e341]: "01"
+              - generic [ref=e342]: "2025"
+            - generic [ref=e344]:
+              - heading "Northstar" [level=3] [ref=e345]
+              - paragraph [ref=e346]: A new signal for a climate intelligence platform.
+        - article [ref=e350]:
+          - link "02 2024 Morrow Editorial commerce for objects with a point of view." [ref=e351] [cursor=pointer]:
+            - /url: /work/morrow
+            - generic [ref=e352]:
+              - generic [ref=e354]: "02"
+              - generic [ref=e355]: "2024"
+            - generic [ref=e357]:
+              - heading "Morrow" [level=3] [ref=e358]
+              - paragraph [ref=e359]: Editorial commerce for objects with a point of view.
+        - article [ref=e363]:
+          - link "03 2024 Field Notes A living archive for a moving image studio." [ref=e364] [cursor=pointer]:
+            - /url: /work/field-notes
+            - generic [ref=e365]:
+              - generic [ref=e367]: "03"
+              - generic [ref=e368]: "2024"
+            - generic [ref=e370]:
+              - heading "Field Notes" [level=3] [ref=e371]
+              - paragraph [ref=e372]: A living archive for a moving image studio.
+    - generic [ref=e377]:
+      - paragraph [ref=e379]: Services
+      - generic [ref=e380]:
+        - generic [ref=e381]:
+          - generic [ref=e382]: "01"
+          - generic [ref=e383]:
+            - heading "Direction" [level=3] [ref=e384]
+            - paragraph [ref=e385]: Visual language, narrative and interaction principles that give the work a point of view.
+        - generic [ref=e386]:
+          - generic [ref=e387]: "02"
+          - generic [ref=e388]:
+            - heading "Design" [level=3] [ref=e389]
+            - paragraph [ref=e390]: Editorial interfaces and motion systems that make complex ideas feel immediate.
+        - generic [ref=e391]:
+          - generic [ref=e392]: "03"
+          - generic [ref=e393]:
+            - heading "Development" [level=3] [ref=e394]
+            - paragraph [ref=e395]: Fast, resilient React experiences built to stay expressive as they grow.
+    - generic [ref=e398]:
+      - paragraph [ref=e399]: Have a good one in mind?
+      - generic [ref=e400]:
+        - heading "Let's make something people remember." [level=2] [ref=e401]
+        - link "hello@yourname.studio" [ref=e402] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+  - contentinfo [ref=e406]:
+    - generic [ref=e407]:
+      - paragraph [ref=e408]: © 2026 YOUR NAME. Built with intention.
+      - generic [ref=e409]:
+        - link "Email" [ref=e410] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+        - link "Back to top" [ref=e411] [cursor=pointer]:
+          - /url: "#top"

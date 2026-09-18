@@ -1,0 +1,29 @@
+.decrypted-contact-parent {
+  display: block !important;
+  width: 100%;
+  font-family: var(--font-kanit), sans-serif;
+  font-size: clamp(3.2rem, 8vw, 7rem);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  line-height: 0.86;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.decrypted-contact-revealed,
+.decrypted-contact-encrypted {
+  -webkit-text-fill-color: currentColor;
+}
+
+.decrypted-contact-revealed {
+  color: #bbccd7;
+}
+
+.decrypted-contact-encrypted {
+  color: #8051a9;
+  opacity: 0.72;
+}
+
+@media (max-width: 639px) {
+  .decrypted-contact-parent { font-size: clamp(2.8rem, 14vw, 4.5rem); }
+}

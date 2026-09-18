@@ -1,0 +1,293 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Главная страница — LOOP / FORM" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: LOOP
+        - generic [aria-hidden] [ref=e8]: /
+        - generic [ref=e9]: FORM
+      - navigation "Основная навигация" [ref=e10]:
+        - link "Работы" [ref=e11] [cursor=pointer]:
+          - /url: "#work"
+        - link "Обо мне" [ref=e12] [cursor=pointer]:
+          - /url: "#about"
+        - link "Услуги" [ref=e13] [cursor=pointer]:
+          - /url: "#services"
+        - generic [ref=e14]:
+          - button "Обсудить проект" [ref=e15] [cursor=pointer]
+          - status [ref=e20]
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - paragraph [ref=e25]: INDEPENDENT CREATIVE DEVELOPER / 2026
+      - heading [level=1] [ref=e27]:
+        - img "DIGITAL PROJECTS WITH CHARACTER." [ref=e28]
+      - paragraph [ref=e30]: Я создаю выразительные цифровые продукты, где арт-дирекшн, motion и разработка работают как единое целое.
+      - generic [ref=e32]:
+        - button "СМОТРЕТЬ РАБОТЫ" [ref=e33] [cursor=pointer]
+        - status [ref=e38]
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading [level=2] [ref=e43]:
+          - img "ОБО МНЕ" [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e47]: М
+          - generic [ref=e49]: н
+          - generic [ref=e51]: е
+          - generic [ref=e55]: н
+          - generic [ref=e57]: р
+          - generic [ref=e59]: а
+          - generic [ref=e61]: в
+          - generic [ref=e63]: и
+          - generic [ref=e65]: т
+          - generic [ref=e67]: с
+          - generic [ref=e69]: я
+          - generic [ref=e73]: п
+          - generic [ref=e75]: р
+          - generic [ref=e77]: е
+          - generic [ref=e79]: в
+          - generic [ref=e81]: р
+          - generic [ref=e83]: а
+          - generic [ref=e85]: щ
+          - generic [ref=e87]: а
+          - generic [ref=e89]: т
+          - generic [ref=e91]: ь
+          - generic [ref=e95]: с
+          - generic [ref=e97]: л
+          - generic [ref=e99]: о
+          - generic [ref=e101]: ж
+          - generic [ref=e103]: н
+          - generic [ref=e105]: ы
+          - generic [ref=e107]: е
+          - generic [ref=e111]: и
+          - generic [ref=e113]: д
+          - generic [ref=e115]: е
+          - generic [ref=e117]: и
+          - generic [ref=e121]: в
+          - generic [ref=e125]: п
+          - generic [ref=e127]: о
+          - generic [ref=e129]: н
+          - generic [ref=e131]: я
+          - generic [ref=e133]: т
+          - generic [ref=e135]: н
+          - generic [ref=e137]: ы
+          - generic [ref=e139]: е
+          - generic [ref=e143]: ц
+          - generic [ref=e145]: и
+          - generic [ref=e147]: ф
+          - generic [ref=e149]: р
+          - generic [ref=e151]: о
+          - generic [ref=e153]: в
+          - generic [ref=e155]: ы
+          - generic [ref=e157]: е
+          - generic [ref=e161]: ф
+          - generic [ref=e163]: о
+          - generic [ref=e165]: р
+          - generic [ref=e167]: м
+          - generic [ref=e169]: ы
+          - generic [ref=e171]: .
+          - generic [ref=e175]: Я
+          - generic [ref=e179]: с
+          - generic [ref=e181]: о
+          - generic [ref=e183]: е
+          - generic [ref=e185]: д
+          - generic [ref=e187]: и
+          - generic [ref=e189]: н
+          - generic [ref=e191]: я
+          - generic [ref=e193]: ю
+          - generic [ref=e197]: д
+          - generic [ref=e199]: и
+          - generic [ref=e201]: з
+          - generic [ref=e203]: а
+          - generic [ref=e205]: й
+          - generic [ref=e207]: н
+          - generic [ref=e209]: ","
+          - generic [ref=e213]: m
+          - generic [ref=e215]: o
+          - generic [ref=e217]: t
+          - generic [ref=e219]: i
+          - generic [ref=e221]: o
+          - generic [ref=e223]: "n"
+          - generic [ref=e227]: и
+          - generic [ref=e231]: f
+          - generic [ref=e233]: r
+          - generic [ref=e235]: o
+          - generic [ref=e237]: "n"
+          - generic [ref=e239]: t
+          - generic [ref=e241]: e
+          - generic [ref=e243]: "n"
+          - generic [ref=e245]: d
+          - generic [ref=e247]: "-"
+          - generic [ref=e249]: р
+          - generic [ref=e251]: а
+          - generic [ref=e253]: з
+          - generic [ref=e255]: р
+          - generic [ref=e257]: а
+          - generic [ref=e259]: б
+          - generic [ref=e261]: о
+          - generic [ref=e263]: т
+          - generic [ref=e265]: к
+          - generic [ref=e267]: у
+          - generic [ref=e269]: ","
+          - generic [ref=e273]: ч
+          - generic [ref=e275]: т
+          - generic [ref=e277]: о
+          - generic [ref=e279]: б
+          - generic [ref=e281]: ы
+          - generic [ref=e285]: с
+          - generic [ref=e287]: а
+          - generic [ref=e289]: й
+          - generic [ref=e291]: т
+          - generic [ref=e293]: ы
+          - generic [ref=e297]: в
+          - generic [ref=e299]: ы
+          - generic [ref=e301]: г
+          - generic [ref=e303]: л
+          - generic [ref=e305]: я
+          - generic [ref=e307]: д
+          - generic [ref=e309]: е
+          - generic [ref=e311]: л
+          - generic [ref=e313]: и
+          - generic [ref=e317]: в
+          - generic [ref=e319]: ы
+          - generic [ref=e321]: р
+          - generic [ref=e323]: а
+          - generic [ref=e325]: з
+          - generic [ref=e327]: и
+          - generic [ref=e329]: т
+          - generic [ref=e331]: е
+          - generic [ref=e333]: л
+          - generic [ref=e335]: ь
+          - generic [ref=e337]: н
+          - generic [ref=e339]: о
+          - generic [ref=e341]: ","
+          - generic [ref=e345]: б
+          - generic [ref=e347]: ы
+          - generic [ref=e349]: с
+          - generic [ref=e351]: т
+          - generic [ref=e353]: р
+          - generic [ref=e355]: о
+          - generic [ref=e359]: р
+          - generic [ref=e361]: а
+          - generic [ref=e363]: б
+          - generic [ref=e365]: о
+          - generic [ref=e367]: т
+          - generic [ref=e369]: а
+          - generic [ref=e371]: л
+          - generic [ref=e373]: и
+          - generic [ref=e377]: и
+          - generic [ref=e381]: п
+          - generic [ref=e383]: о
+          - generic [ref=e385]: м
+          - generic [ref=e387]: о
+          - generic [ref=e389]: г
+          - generic [ref=e391]: а
+          - generic [ref=e393]: л
+          - generic [ref=e395]: и
+          - generic [ref=e399]: б
+          - generic [ref=e401]: и
+          - generic [ref=e403]: з
+          - generic [ref=e405]: н
+          - generic [ref=e407]: е
+          - generic [ref=e409]: с
+          - generic [ref=e411]: у
+          - generic [ref=e415]: г
+          - generic [ref=e417]: о
+          - generic [ref=e419]: в
+          - generic [ref=e421]: о
+          - generic [ref=e423]: р
+          - generic [ref=e425]: и
+          - generic [ref=e427]: т
+          - generic [ref=e429]: ь
+          - generic [ref=e433]: с
+          - generic [ref=e435]: о
+          - generic [ref=e439]: с
+          - generic [ref=e441]: в
+          - generic [ref=e443]: о
+          - generic [ref=e445]: е
+          - generic [ref=e447]: й
+          - generic [ref=e451]: а
+          - generic [ref=e453]: у
+          - generic [ref=e455]: д
+          - generic [ref=e457]: и
+          - generic [ref=e459]: т
+          - generic [ref=e461]: о
+          - generic [ref=e463]: р
+          - generic [ref=e465]: и
+          - generic [ref=e467]: е
+          - generic [ref=e469]: й
+          - generic [ref=e471]: .
+      - generic [ref=e473]:
+        - button "Связаться со мной" [ref=e474] [cursor=pointer]
+        - status [ref=e475]
+    - generic [ref=e477]:
+      - generic [ref=e479]:
+        - paragraph [ref=e480]: Реальные сайты бизнеса
+        - heading "Смотрите примеры." [level=2] [ref=e481]
+      - generic [ref=e482]:
+        - article [ref=e483]:
+          - link "Открыть ORACARE" [ref=e484] [cursor=pointer]:
+            - /url: https://oracarenew.framer.website/
+            - generic [ref=e485]:
+              - generic [ref=e487]: "01"
+              - generic [ref=e488]: Сайт-референс
+              - generic [ref=e489]: "2026"
+            - generic [ref=e491]:
+              - heading "ORACARE" [level=3] [ref=e492]
+              - paragraph [ref=e493]: Современный сайт стоматологической клиники с записью на приём.
+        - article [ref=e497]:
+          - link "Открыть DENTIQUE" [ref=e498] [cursor=pointer]:
+            - /url: https://www.framer.com/marketplace/templates/dentique/
+            - generic [ref=e499]:
+              - generic [ref=e501]: "02"
+              - generic [ref=e502]: Шаблон Framer
+              - generic [ref=e503]: "2026"
+            - generic [ref=e505]:
+              - heading "DENTIQUE" [level=3] [ref=e506]
+              - paragraph [ref=e507]: Премиальный шаблон Framer для стоматологических клиник.
+        - article [ref=e511]:
+          - link "Открыть ANIFLOW AI" [ref=e512] [cursor=pointer]:
+            - /url: https://animify.app/
+            - generic [ref=e513]:
+              - generic [ref=e515]: "03"
+              - generic [ref=e516]: Vibe-coding
+              - generic [ref=e517]: "2026"
+            - generic [ref=e519]:
+              - heading "ANIFLOW AI" [level=3] [ref=e520]
+              - paragraph [ref=e521]: Креативная AI-студия для создания аниме-сцен и визуалов.
+      - generic [ref=e526]:
+        - button "Обсудить проект" [ref=e527] [cursor=pointer]
+        - status [ref=e528]
+    - generic [ref=e530]:
+      - paragraph [ref=e532]: Услуги
+      - generic [ref=e533]:
+        - generic [ref=e534]:
+          - generic [ref=e535]: "01"
+          - generic [ref=e536]:
+            - heading "Арт-дирекшн" [level=3] [ref=e537]
+            - paragraph [ref=e538]: Визуальный язык, нарратив и принципы взаимодействия, которые задают работе характер.
+        - generic [ref=e539]:
+          - generic [ref=e540]: "02"
+          - generic [ref=e541]:
+            - heading "Дизайн" [level=3] [ref=e542]
+            - paragraph [ref=e543]: Интерфейсы и motion-системы, которые делают сложные идеи понятными с первого взгляда.
+        - generic [ref=e544]:
+          - generic [ref=e545]: "03"
+          - generic [ref=e546]:
+            - heading "Разработка" [level=3] [ref=e547]
+            - paragraph [ref=e548]: Быстрые и надёжные React-продукты, которые сохраняют выразительность по мере роста.
+    - generic [ref=e551]:
+      - paragraph [ref=e552]: Есть идея?
+      - generic [ref=e553]:
+        - heading [level=2] [ref=e554]:
+          - img "Давайте создадим то, что запомнится." [ref=e555]
+        - generic [ref=e556]:
+          - button "Написать в Telegram @missionmon3y" [ref=e557] [cursor=pointer]: "@missionmon3y"
+          - status [ref=e562]
+  - contentinfo [ref=e563]:
+    - generic [ref=e564]:
+      - paragraph [ref=e565]: © 2026 LOOP / FORM. Сделано с вниманием.
+      - generic [ref=e566]:
+        - link "Почта" [ref=e567] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+        - link "Наверх" [ref=e568] [cursor=pointer]:
+          - /url: "#top"

@@ -1,0 +1,12 @@
+[     762ms] [WARNING] GSAP target null not found. https://gsap.com @ https://www.fromanother.love/_next/static/chunks/c15bf2b0-74708c127c2342a3.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:0
+[     775ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:36636)
+    at r0 (https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:38004)
+    at https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:131564
+    at sg (https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:136732)
+    at sp (https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:128070)
+    at https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:122899
+    at sn (https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:123000)
+    at sQ (https://www.fromanother.love/_next/static/chunks/4bd1b696-6b5c0c72b0eadc5f.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:149520)
+    at MessagePort.C (https://www.fromanother.love/_next/static/chunks/8928-30e4934e9e875b99.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:1:42399)
+[   10346ms] [WARNING] GSAP target .js-hero_content_title_mobileMediaBox not found. https://gsap.com @ https://www.fromanother.love/_next/static/chunks/c15bf2b0-74708c127c2342a3.js?dpl=dpl_D4GLZR6fGhu8sjwGKvpF41Mxjb7f:0

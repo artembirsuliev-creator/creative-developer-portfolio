@@ -1,0 +1,52 @@
+.scroll-velocity {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-velocity__parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-velocity__scroller {
+  display: flex;
+  width: max-content;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.scroll-velocity__copy {
+  display: inline-block;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-family: var(--font-kanit), sans-serif;
+  font-size: clamp(3.2rem, 8vw, 7rem);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  line-height: 0.86;
+  text-transform: uppercase;
+}
+
+.contact-scroll-copy {
+  display: block;
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  white-space: normal;
+  text-align: center;
+}
+
+@media (max-width: 639px) {
+  .scroll-velocity__copy { font-size: clamp(2.8rem, 14vw, 4.5rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-velocity__scroller { transform: none !important; }
+}

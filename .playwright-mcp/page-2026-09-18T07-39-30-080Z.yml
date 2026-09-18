@@ -1,0 +1,312 @@
+- generic [ref=f11e2]:
+  - banner [ref=f11e3]:
+    - generic [ref=f11e4]:
+      - link "YOUR NAME home" [ref=f11e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f11e6]: YN
+        - generic [ref=f11e7]: YOUR NAME
+      - navigation "Primary navigation" [ref=f11e8]:
+        - link "Work" [ref=f11e9] [cursor=pointer]:
+          - /url: "#work"
+        - link "Approach" [ref=f11e10] [cursor=pointer]:
+          - /url: "#about"
+        - link "Services" [ref=f11e11] [cursor=pointer]:
+          - /url: "#services"
+        - link "Let's talk" [ref=f11e12] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=f11e16]:
+    - generic [ref=f11e17]:
+      - generic [ref=f11e18]:
+        - paragraph [ref=f11e19]: Independent / 2026
+        - heading [level=1] [ref=f11e20]:
+          - generic "Digital work with a pulse." [ref=f11e21]:
+            - generic [aria-hidden] [ref=f11e23]: Digital
+            - generic [aria-hidden] [ref=f11e25]: work
+            - generic [aria-hidden] [ref=f11e27]: with
+            - generic [aria-hidden] [ref=f11e29]: a
+            - generic [aria-hidden] [ref=f11e31]: pulse.
+        - generic [ref=f11e32]:
+          - paragraph [ref=f11e33]: I build expressive digital experiences where art direction, motion and engineering move as one.
+          - link "Explore work" [ref=f11e34] [cursor=pointer]:
+            - /url: "#work"
+      - generic [ref=f11e39]:
+        - generic [ref=f11e44]: +
+        - generic [ref=f11e45]:
+          - generic [ref=f11e46]: Signal / 01
+          - generic [ref=f11e47]: Live system
+      - generic [ref=f11e48]:
+        - generic [ref=f11e49]: Selected signal
+        - link "Start a conversation" [ref=f11e50] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+    - generic [ref=f11e55]:
+      - generic [ref=f11e56]:
+        - heading "About me" [level=2] [ref=f11e58]
+        - paragraph [ref=f11e59]:
+          - generic [ref=f11e61]: W
+          - generic [ref=f11e63]: i
+          - generic [ref=f11e65]: t
+          - generic [ref=f11e67]: h
+          - generic [ref=f11e71]: m
+          - generic [ref=f11e73]: o
+          - generic [ref=f11e75]: r
+          - generic [ref=f11e77]: e
+          - generic [ref=f11e81]: t
+          - generic [ref=f11e83]: h
+          - generic [ref=f11e85]: a
+          - generic [ref=f11e87]: "n"
+          - generic [ref=f11e91]: f
+          - generic [ref=f11e93]: i
+          - generic [ref=f11e95]: v
+          - generic [ref=f11e97]: e
+          - generic [ref=f11e101]: "y"
+          - generic [ref=f11e103]: e
+          - generic [ref=f11e105]: a
+          - generic [ref=f11e107]: r
+          - generic [ref=f11e109]: s
+          - generic [ref=f11e113]: o
+          - generic [ref=f11e115]: f
+          - generic [ref=f11e119]: e
+          - generic [ref=f11e121]: x
+          - generic [ref=f11e123]: p
+          - generic [ref=f11e125]: e
+          - generic [ref=f11e127]: r
+          - generic [ref=f11e129]: i
+          - generic [ref=f11e131]: e
+          - generic [ref=f11e133]: "n"
+          - generic [ref=f11e135]: c
+          - generic [ref=f11e137]: e
+          - generic [ref=f11e141]: i
+          - generic [ref=f11e143]: "n"
+          - generic [ref=f11e147]: d
+          - generic [ref=f11e149]: e
+          - generic [ref=f11e151]: s
+          - generic [ref=f11e153]: i
+          - generic [ref=f11e155]: g
+          - generic [ref=f11e157]: "n"
+          - generic [ref=f11e159]: ","
+          - generic [ref=f11e163]: i
+          - generic [ref=f11e167]: f
+          - generic [ref=f11e169]: o
+          - generic [ref=f11e171]: c
+          - generic [ref=f11e173]: u
+          - generic [ref=f11e175]: s
+          - generic [ref=f11e179]: o
+          - generic [ref=f11e181]: "n"
+          - generic [ref=f11e185]: b
+          - generic [ref=f11e187]: r
+          - generic [ref=f11e189]: a
+          - generic [ref=f11e191]: "n"
+          - generic [ref=f11e193]: d
+          - generic [ref=f11e195]: i
+          - generic [ref=f11e197]: "n"
+          - generic [ref=f11e199]: g
+          - generic [ref=f11e201]: ","
+          - generic [ref=f11e205]: w
+          - generic [ref=f11e207]: e
+          - generic [ref=f11e209]: b
+          - generic [ref=f11e213]: d
+          - generic [ref=f11e215]: e
+          - generic [ref=f11e217]: s
+          - generic [ref=f11e219]: i
+          - generic [ref=f11e221]: g
+          - generic [ref=f11e223]: "n"
+          - generic [ref=f11e225]: ","
+          - generic [ref=f11e229]: a
+          - generic [ref=f11e231]: "n"
+          - generic [ref=f11e233]: d
+          - generic [ref=f11e237]: u
+          - generic [ref=f11e239]: s
+          - generic [ref=f11e241]: e
+          - generic [ref=f11e243]: r
+          - generic [ref=f11e247]: e
+          - generic [ref=f11e249]: x
+          - generic [ref=f11e251]: p
+          - generic [ref=f11e253]: e
+          - generic [ref=f11e255]: r
+          - generic [ref=f11e257]: i
+          - generic [ref=f11e259]: e
+          - generic [ref=f11e261]: "n"
+          - generic [ref=f11e263]: c
+          - generic [ref=f11e265]: e
+          - generic [ref=f11e267]: ","
+          - generic [ref=f11e271]: i
+          - generic [ref=f11e275]: t
+          - generic [ref=f11e277]: r
+          - generic [ref=f11e279]: u
+          - generic [ref=f11e281]: l
+          - generic [ref=f11e283]: "y"
+          - generic [ref=f11e287]: e
+          - generic [ref=f11e289]: "n"
+          - generic [ref=f11e291]: j
+          - generic [ref=f11e293]: o
+          - generic [ref=f11e295]: "y"
+          - generic [ref=f11e299]: w
+          - generic [ref=f11e301]: o
+          - generic [ref=f11e303]: r
+          - generic [ref=f11e305]: k
+          - generic [ref=f11e307]: i
+          - generic [ref=f11e309]: "n"
+          - generic [ref=f11e311]: g
+          - generic [ref=f11e315]: w
+          - generic [ref=f11e317]: i
+          - generic [ref=f11e319]: t
+          - generic [ref=f11e321]: h
+          - generic [ref=f11e325]: b
+          - generic [ref=f11e327]: u
+          - generic [ref=f11e329]: s
+          - generic [ref=f11e331]: i
+          - generic [ref=f11e333]: "n"
+          - generic [ref=f11e335]: e
+          - generic [ref=f11e337]: s
+          - generic [ref=f11e339]: s
+          - generic [ref=f11e341]: e
+          - generic [ref=f11e343]: s
+          - generic [ref=f11e347]: t
+          - generic [ref=f11e349]: h
+          - generic [ref=f11e351]: a
+          - generic [ref=f11e353]: t
+          - generic [ref=f11e357]: a
+          - generic [ref=f11e359]: i
+          - generic [ref=f11e361]: m
+          - generic [ref=f11e365]: t
+          - generic [ref=f11e367]: o
+          - generic [ref=f11e371]: s
+          - generic [ref=f11e373]: t
+          - generic [ref=f11e375]: a
+          - generic [ref=f11e377]: "n"
+          - generic [ref=f11e379]: d
+          - generic [ref=f11e383]: o
+          - generic [ref=f11e385]: u
+          - generic [ref=f11e387]: t
+          - generic [ref=f11e391]: a
+          - generic [ref=f11e393]: "n"
+          - generic [ref=f11e395]: d
+          - generic [ref=f11e399]: p
+          - generic [ref=f11e401]: r
+          - generic [ref=f11e403]: e
+          - generic [ref=f11e405]: s
+          - generic [ref=f11e407]: e
+          - generic [ref=f11e409]: "n"
+          - generic [ref=f11e411]: t
+          - generic [ref=f11e415]: t
+          - generic [ref=f11e417]: h
+          - generic [ref=f11e419]: e
+          - generic [ref=f11e421]: i
+          - generic [ref=f11e423]: r
+          - generic [ref=f11e427]: b
+          - generic [ref=f11e429]: e
+          - generic [ref=f11e431]: s
+          - generic [ref=f11e433]: t
+          - generic [ref=f11e437]: i
+          - generic [ref=f11e439]: m
+          - generic [ref=f11e441]: a
+          - generic [ref=f11e443]: g
+          - generic [ref=f11e445]: e
+          - generic [ref=f11e447]: .
+          - generic [ref=f11e451]: L
+          - generic [ref=f11e453]: e
+          - generic [ref=f11e455]: t
+          - generic [ref=f11e457]: "'"
+          - generic [ref=f11e459]: s
+          - generic [ref=f11e463]: b
+          - generic [ref=f11e465]: u
+          - generic [ref=f11e467]: i
+          - generic [ref=f11e469]: l
+          - generic [ref=f11e471]: d
+          - generic [ref=f11e475]: s
+          - generic [ref=f11e477]: o
+          - generic [ref=f11e479]: m
+          - generic [ref=f11e481]: e
+          - generic [ref=f11e483]: t
+          - generic [ref=f11e485]: h
+          - generic [ref=f11e487]: i
+          - generic [ref=f11e489]: "n"
+          - generic [ref=f11e491]: g
+          - generic [ref=f11e495]: i
+          - generic [ref=f11e497]: "n"
+          - generic [ref=f11e499]: c
+          - generic [ref=f11e501]: r
+          - generic [ref=f11e503]: e
+          - generic [ref=f11e505]: d
+          - generic [ref=f11e507]: i
+          - generic [ref=f11e509]: b
+          - generic [ref=f11e511]: l
+          - generic [ref=f11e513]: e
+          - generic [ref=f11e517]: t
+          - generic [ref=f11e519]: o
+          - generic [ref=f11e521]: g
+          - generic [ref=f11e523]: e
+          - generic [ref=f11e525]: t
+          - generic [ref=f11e527]: h
+          - generic [ref=f11e529]: e
+          - generic [ref=f11e531]: r
+          - generic [ref=f11e533]: "!"
+      - link "Contact Me" [ref=f11e535] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=f11e537]:
+      - generic [ref=f11e538]:
+        - generic [ref=f11e539]:
+          - paragraph [ref=f11e540]: Selected work
+          - heading "A few things I've made." [level=2] [ref=f11e541]
+        - link "All enquiries" [ref=f11e542] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f11e546]:
+        - article [ref=f11e547]:
+          - link "01 2025 Northstar A new signal for a climate intelligence platform." [ref=f11e548] [cursor=pointer]:
+            - /url: /work/northstar
+            - generic [ref=f11e549]:
+              - generic [ref=f11e551]: "01"
+              - generic [ref=f11e552]: "2025"
+            - generic [ref=f11e554]:
+              - heading "Northstar" [level=3] [ref=f11e555]
+              - paragraph [ref=f11e556]: A new signal for a climate intelligence platform.
+        - article [ref=f11e560]:
+          - link "02 2024 Morrow Editorial commerce for objects with a point of view." [ref=f11e561] [cursor=pointer]:
+            - /url: /work/morrow
+            - generic [ref=f11e562]:
+              - generic [ref=f11e564]: "02"
+              - generic [ref=f11e565]: "2024"
+            - generic [ref=f11e567]:
+              - heading "Morrow" [level=3] [ref=f11e568]
+              - paragraph [ref=f11e569]: Editorial commerce for objects with a point of view.
+        - article [ref=f11e573]:
+          - link "03 2024 Field Notes A living archive for a moving image studio." [ref=f11e574] [cursor=pointer]:
+            - /url: /work/field-notes
+            - generic [ref=f11e575]:
+              - generic [ref=f11e577]: "03"
+              - generic [ref=f11e578]: "2024"
+            - generic [ref=f11e580]:
+              - heading "Field Notes" [level=3] [ref=f11e581]
+              - paragraph [ref=f11e582]: A living archive for a moving image studio.
+    - generic [ref=f11e587]:
+      - paragraph [ref=f11e589]: Services
+      - generic [ref=f11e590]:
+        - generic [ref=f11e591]:
+          - generic [ref=f11e592]: "01"
+          - generic [ref=f11e593]:
+            - heading "Direction" [level=3] [ref=f11e594]
+            - paragraph [ref=f11e595]: Visual language, narrative and interaction principles that give the work a point of view.
+        - generic [ref=f11e596]:
+          - generic [ref=f11e597]: "02"
+          - generic [ref=f11e598]:
+            - heading "Design" [level=3] [ref=f11e599]
+            - paragraph [ref=f11e600]: Editorial interfaces and motion systems that make complex ideas feel immediate.
+        - generic [ref=f11e601]:
+          - generic [ref=f11e602]: "03"
+          - generic [ref=f11e603]:
+            - heading "Development" [level=3] [ref=f11e604]
+            - paragraph [ref=f11e605]: Fast, resilient React experiences built to stay expressive as they grow.
+    - generic [ref=f11e608]:
+      - paragraph [ref=f11e609]: Have a good one in mind?
+      - generic [ref=f11e610]:
+        - heading "Let's make something people remember." [level=2] [ref=f11e611]
+        - link "hello@yourname.studio" [ref=f11e612] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+  - contentinfo [ref=f11e616]:
+    - generic [ref=f11e617]:
+      - paragraph [ref=f11e618]: © 2026 YOUR NAME. Built with intention.
+      - generic [ref=f11e619]:
+        - link "Email" [ref=f11e620] [cursor=pointer]:
+          - /url: mailto:hello@yourname.studio
+        - link "Back to top" [ref=f11e621] [cursor=pointer]:
+          - /url: "#top"

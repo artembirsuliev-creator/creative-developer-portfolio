@@ -36,7 +36,7 @@ export function Contact() {
               className="shrink-0"
               href={siteConfig.telegramUrl}
               icon={<ArrowUpRight aria-hidden="true" className="size-5" />}
-              label={siteConfig.telegram}
+              label={siteConfig.telegramLabel}
             />
           </div>
         </FadeIn>

@@ -9,9 +9,9 @@ export const siteConfig = {
   description:
     "Создаю выразительные цифровые продукты, где арт-дирекшн, motion и разработка работают как единое целое.",
   location: "Доступен для проектов по всему миру",
-  email: "hello@yourname.studio",
-  telegram: "@missionmon3y",
-  telegramUrl: "https://t.me/missionmon3y",
+  telegram: "@hardworrk0",
+  telegramLabel: "Поймаем идею",
+  telegramUrl: "https://t.me/hardworrk0",
   nav: [
     { label: "Работы", href: "#work" },
     { label: "Обо мне", href: "#about" },

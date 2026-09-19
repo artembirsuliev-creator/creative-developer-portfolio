@@ -10,7 +10,7 @@ export const siteConfig = {
     "Создаю выразительные цифровые продукты, где арт-дирекшн, motion и разработка работают как единое целое.",
   location: "Доступен для проектов по всему миру",
   telegram: "@hardworrk0",
-  telegramLabel: "Поймаем идею",
+  telegramLabel: "Telegram",
   telegramUrl: "https://t.me/hardworrk0",
   nav: [
     { label: "Работы", href: "#work" },

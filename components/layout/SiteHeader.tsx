@@ -14,7 +14,7 @@ export function SiteHeader() {
           <span className="template-brand-word">{siteConfig.brand.second}</span>
         </Link>
         <nav aria-label="Основная навигация" className="flex items-center gap-4 sm:gap-7">
-          {siteConfig.nav.slice(0, 3).map((item) => (
+          {siteConfig.nav.slice(0, 4).map((item) => (
             <a className="nav-link hidden sm:inline-flex" href={item.href} key={item.href}>
               {item.label}
             </a>

@@ -16,6 +16,7 @@ export const siteConfig = {
     { label: "Работы", href: "#work" },
     { label: "Обо мне", href: "#about" },
     { label: "Услуги", href: "#services" },
+    { label: "Отзывы", href: "#reviews" },
     { label: "Контакты", href: "#contact" },
   ],
 };

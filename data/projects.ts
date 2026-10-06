@@ -18,20 +18,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "zdental",
-    title: "Z-DENTAL",
-    subtitle: "Современная стоматология с услугами, ценами и записью на приём.",
+    slug: "mn-renovation",
+    title: "МН РЕМОНТ",
+    subtitle: "Сайт ремонтной команды для квартир, домов и коммерческих помещений.",
     year: "2026",
     role: "Vibe-coding",
-    client: "Z-Dental",
+    client: "МН",
     description:
-      "Сайт стоматологической клиники с услугами, ценами, преимуществами лечения и формой записи на консультацию.",
-    thumbnail: "zdental",
-    heroMedia: "zdental",
+      "Сайт команды по ремонту и комплексной отделке помещений в Самаре и Тольятти. Проекты показывают ход работ, этапы и внимание к деталям.",
+    thumbnail: "mn-renovation",
+    heroMedia: "mn-renovation",
     gallery: [],
-    technologies: ["Healthcare", "Conversion", "Booking"],
-    services: ["Стоматология", "Косметическая стоматология", "Запись на приём"],
-    externalUrl: "https://z-dental.ru/",
+    technologies: ["Сайт-портфолио", "Галерея проектов", "Онлайн-обращения"],
+    services: ["Ремонт квартир", "Дома и коттеджи", "Коммерческие помещения"],
+    externalUrl: "https://lending22.vercel.app/#projects",
     accent: "#d7ff5f",
   },
   {

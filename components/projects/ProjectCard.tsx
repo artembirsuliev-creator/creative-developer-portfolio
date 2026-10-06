@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/data/projects";
 
 const projectVisuals: Record<string, string> = {
-  zdental: "project-visual project-visual-lime",
+  "mn-renovation": "project-visual project-visual-lilac",
   lume21: "project-visual project-visual-lilac",
   aniflow: "project-visual project-visual-orange",
 };

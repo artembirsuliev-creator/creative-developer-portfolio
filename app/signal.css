@@ -141,3 +141,5 @@ a:focus-visible, button:focus-visible { outline:2px solid #c8bbf7; outline-offse
   .signal-intro { opacity:1; transform:none; }
   .signal-tunnel { display:none; }
 }
+
+.template-site-content > main:not(#top) { padding-top:130px; }

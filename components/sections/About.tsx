@@ -1,47 +1,23 @@
-import { AboutCorners } from "@/components/effects/AboutCorners";
-import WarpText from "@/components/effects/WarpText";
+import { ArrowUpRight } from "lucide-react";
 import { FadeIn } from "@/components/motion/FadeIn";
-import { CharacterReveal } from "@/components/motion/CharacterReveal";
-import { FuseLink } from "@/components/ui/FuseLink";
+import { siteConfig } from "@/data/site";
 
 export function About() {
   return (
-    <section className="about-template relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden px-5 py-20 sm:px-8 md:px-10" id="about">
-      <AboutCorners />
-      <div className="relative z-10 flex max-w-4xl flex-col items-center justify-center gap-16 text-center sm:gap-20 md:gap-24">
-        <div className="flex flex-col items-center gap-10 sm:gap-14 md:gap-16">
-          <FadeIn className="w-full" delay={0} duration={0.7} y={40}>
-            <div aria-level={2} className="w-full text-center" role="heading">
-              <WarpText
-                color="#bbccd7"
-                fontFamily="var(--font-kanit), sans-serif"
-                fontSize="clamp(4rem, 12vw, 10rem)"
-                fontWeight={800}
-                letterSpacing="-0.06em"
-                lineHeight={0.86}
-                pointerInfluence={0.42}
-                pointerStrength={0.38}
-                refraction={0.018}
-                ripple
-                speed={0.55}
-                style={{ height: "clamp(250px, 30vw, 380px)" }}
-                text="ОБО МНЕ"
-                warpScale={1.7}
-                warpStrength={0.08}
-              />
-            </div>
-          </FadeIn>
-          <CharacterReveal
-            className="about-copy max-w-[560px] text-center text-[clamp(1rem,2vw,1.35rem)] font-medium leading-relaxed"
-            text="Мне нравится превращать сложные идеи в понятные цифровые формы. Я соединяю дизайн, motion и frontend-разработку, чтобы сайты выглядели выразительно, быстро работали и помогали бизнесу говорить со своей аудиторией."
-          />
-        </div>
-        <FadeIn delay={0.3} duration={0.7} y={20}>
-          <FuseLink
-            href="#contact"
-            label="Связаться со мной"
-          />
+    <section className="signal-section signal-about" id="about" aria-labelledby="about-heading">
+      <div className="signal-shell signal-about-grid">
+        <FadeIn>
+          <p className="signal-label">01 / ОБО МНЕ</p>
+          <h2 id="about-heading">Создаю сайты,<br />которые хочется<br /><span>рассматривать.</span></h2>
+          <p className="signal-body">Мне нравится превращать сложные идеи в понятные цифровые формы. Я соединяю дизайн, motion и frontend-разработку, чтобы сайты выглядели выразительно, быстро работали и помогали бизнесу говорить со своей аудиторией.</p>
+          <a className="signal-pill" href={siteConfig.telegramUrl} target="_blank" rel="noreferrer">Давай знакомиться <ArrowUpRight size={16} aria-hidden="true" /></a>
         </FadeIn>
+        <FadeIn className="signal-art" delay={0.12}>
+          <div className="signal-art-top"><span>LOOP / FORM</span><span>DESIGN EXPLORATION</span></div>
+          <div className="signal-art-sculpture" aria-hidden="true">{Array.from({ length: 12 }, (_, i) => <span key={i} style={{ "--slice": i } as React.CSSProperties} />)}</div>
+          <p>Идея обретает форму<span>✦</span></p>
+        </FadeIn>
+        <FadeIn className="signal-principles"><div><strong>Дизайн</strong><span>Со своим характером</span></div><div><strong>Motion</strong><span>Движение со смыслом</span></div><div><strong>Frontend</strong><span>Внимание к деталям</span></div></FadeIn>
       </div>
     </section>
   );

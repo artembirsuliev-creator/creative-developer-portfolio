@@ -1,50 +1,8 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-
 import type { Project } from "@/data/projects";
 
-const projectVisuals: Record<string, string> = {
-  "mn-renovation": "project-visual project-visual-lilac",
-  lume21: "project-visual project-visual-lilac",
-  aniflow: "project-visual project-visual-orange",
-};
-
 export function ProjectCard({ project, index }: { project: Project; index: number }) {
-  const content = (
-    <>
-      <div className={`${projectVisuals[project.slug] ?? "project-visual"} relative aspect-[1.2] overflow-hidden`}>
-        <div aria-hidden="true" className="project-visual-shape" />
-        <span className="absolute left-5 top-5 font-mono text-[10px] uppercase tracking-[0.16em] text-white/70">0{index + 1}</span>
-        <span className="absolute right-5 top-5 font-mono text-[10px] uppercase tracking-[0.16em] text-white/70">{project.role}</span>
-        <span className="absolute bottom-5 right-5 font-mono text-[10px] uppercase tracking-[0.16em] text-white/70">{project.year}</span>
-      </div>
-      <div className="mt-5 flex items-start justify-between gap-5">
-        <div>
-          <h3 className="text-2xl font-medium tracking-[-0.04em] text-foreground transition-colors group-hover:text-accent sm:text-3xl">{project.title}</h3>
-          <p className="mt-2 max-w-xs text-sm leading-6 text-muted-foreground">{project.subtitle}</p>
-        </div>
-        <ArrowUpRight aria-hidden="true" className="mt-1 size-5 shrink-0 text-muted-foreground transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-accent" />
-      </div>
-    </>
-  );
-
-  return (
-    <article className="group">
-      {project.externalUrl ? (
-        <a
-          aria-label={`Открыть ${project.title}`}
-          className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-          href={project.externalUrl}
-          rel="noreferrer"
-          target="_blank"
-        >
-          {content}
-        </a>
-      ) : (
-        <Link className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent" href={`/work/${project.slug}`}>
-          {content}
-        </Link>
-      )}
-    </article>
-  );
+  const content = <><div className={`signal-project-visual signal-project-${project.slug}`} aria-hidden="true"><div className="signal-project-browser"><span>● ● ●</span><span>{project.title} / DIGITAL EXPERIENCE</span></div><div className="signal-project-demo"><p>{project.client}</p><strong>{project.slug === "mn-renovation" ? <>Пространство<br />для жизни.</> : project.slug === "lume21" ? <>Искусство<br />быть собой.</> : <>Imagine.<br />Create. Repeat.</>}</strong><span className="signal-project-orb" /><small>{project.services[0]} ↗</small></div><span className="signal-project-index">0{index + 1} / {project.year}</span></div><div className="signal-project-info"><div><h3>{project.title}</h3><p>{project.subtitle}</p></div><ArrowUpRight aria-hidden="true" size={22} /></div><div className="signal-project-tags">{project.technologies.map(tag => <span key={tag}>{tag}</span>)}</div></>;
+  return <article className="signal-project">{project.externalUrl ? <a href={project.externalUrl} target="_blank" rel="noreferrer" aria-label={`Открыть ${project.title}`}>{content}</a> : <Link href={`/work/${project.slug}`}>{content}</Link>}</article>;
 }
